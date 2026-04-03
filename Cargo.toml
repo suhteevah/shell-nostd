@@ -1,0 +1,14 @@
+[package]
+name = "shell-nostd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matt Gates <matt@ridgecellrepair.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std AI-native shell with 45+ builtins, pipes, scripting in Rust"
+repository = "https://github.com/suhteevah/shell-nostd"
+keywords = ["shell", "terminal", "ai", "no_std", "bare-metal"]
+categories = ["no-std", "command-line-interface", "os"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
